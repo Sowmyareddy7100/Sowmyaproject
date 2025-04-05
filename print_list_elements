@@ -1,0 +1,9 @@
+def print_list_elements(my_list):
+  """Prints each element in the given list."""
+  for item in my_list:
+    print(item)
+
+if __name__ == "__main__":
+  fruits = ["apple", "banana", "cherry"]
+  print("List of fruits:")
+  print_list_elements(fruits)
